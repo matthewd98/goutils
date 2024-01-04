@@ -1,0 +1,18 @@
+# Comment line
+
+[A]
+AA = "test"
+AB = "test"
+AC = "test"
+
+# Table out of order
+#[C]
+#AB = "test"
+#AC = "test"
+#AC = "test"
+
+[B]
+BB = "test"
+# Key out of order
+#BA = "test"
+BC = "test"

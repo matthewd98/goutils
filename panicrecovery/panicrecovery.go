@@ -1,4 +1,4 @@
-package panicrecover
+package panicrecovery
 
 import (
 	"fmt"
