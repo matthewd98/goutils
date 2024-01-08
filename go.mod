@@ -7,6 +7,7 @@ require (
 	github.com/slack-go/slack v0.12.3
 	github.com/xanzy/go-gitlab v0.95.2
 	go.uber.org/zap v1.26.0
+	golang.org/x/exp v0.0.0-20240103183307-be819d1f06fc
 )
 
 require (
