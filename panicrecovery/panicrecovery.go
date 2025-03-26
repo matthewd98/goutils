@@ -28,5 +28,6 @@ func RecoverAndLogWithCleanup(cleanup func()) {
 func log(err interface{}) {
 	stack := debug.Stack()
 	fmt.Fprintf(os.Stderr, "panic: %v\n%s", err, stack)
+	// Note: replace with your own logger package
 	zap.L().Error("Recovered from panic.", zap.ByteString("stackTrace", stack), zap.Any("panic", err))
 }
